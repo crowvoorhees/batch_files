@@ -16,8 +16,4 @@ rem Google Calendar
 cd "C:\Program Files (x86)\Google\Chrome\Application\"
 start chrome.exe --profile-directory=Default --app-id=ejjicmeblgpmajnghnpcppodonldlgfn
 
-rem Evernote
-cd "C:\Program Files (x86)\Evernote\Evernote\"
-start Evernote.exe
-
 exit
