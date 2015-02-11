@@ -16,4 +16,8 @@ rem Google Calendar
 cd "C:\Program Files (x86)\Google\Chrome\Application\"
 start chrome.exe --profile-directory=Default --app-id=ejjicmeblgpmajnghnpcppodonldlgfn
 
+rem Google Chrome (Pro Profile)
+cd "C:\Program Files (x86)\Google\Chrome\Application\"
+start chrome.exe --profile-directory="Profile 1"
+
 exit
