@@ -20,8 +20,8 @@ rem Google Calendar
 cd "C:\Program Files (x86)\Google\Chrome\Application\"
 start chrome.exe --profile-directory=Default --app-id=ejjicmeblgpmajnghnpcppodonldlgfn
 
-rem Google Chrome (Pro Profile)
+rem Google Chrome (Pro Profile) - Open to JIRA UL Team Dashboard
 cd "C:\Program Files (x86)\Google\Chrome\Application\"
-start chrome.exe --profile-directory="Profile 1"
+start chrome.exe --profile-directory="Profile 1" http:"epoch.cloudapp.net/secure/Dashboard.jspa""
 
 exit
