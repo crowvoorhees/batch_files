@@ -4,10 +4,6 @@ rem Outlook
 cd "C:\Program Files\Microsoft Office 15\root\office15\"
 start outlook.exe
 
-rem OneNote
-cd "C:\Program Files\Microsoft Office 15\root\office15\"
-start onenote.exe
-
 rem Lync
 cd "C:\Program Files\Microsoft Office 15\root\office15\"
 start lync.exe
