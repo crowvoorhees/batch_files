@@ -8,16 +8,20 @@ rem Lync
 cd "C:\Program Files\Microsoft Office 15\root\office15\"
 start lync.exe
 
+rem OneNote
+cd "C:\Program Files\Microsoft Office 15\root\office15\"
+start onenote.exe
+
 rem Thunderbird
 cd "C:\Program Files (x86)\Mozilla Thunderbird\"
 start thunderbird.exe
 
 rem Google Calendar
-cd "C:\Users\MARaymon\AppData\Local\Google\Chrome SxS\Application\"
-start chrome.exe --profile-directory=Default --new-window  --profile-directory=Default --new-window "https://www.google.com/calendar/render#main_7"
+cd "C:\Program Files (x86)\Google\Chrome\Application\"
+start chrome.exe --profile-directory=Default --app-id=ejjicmeblgpmajnghnpcppodonldlgfn
 
 rem Google Chrome (Pro Profile)
-cd "C:\Users\MARaymon\AppData\Local\Google\Chrome SxS\Application\"
+cd "C:\Program Files (x86)\Google\Chrome\Application\"
 start chrome.exe --profile-directory="Profile 1"
 
 exit
