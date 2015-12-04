@@ -9,8 +9,8 @@ cd "C:\Program Files\Microsoft Office 15\root\office15\"
 start lync.exe
 
 rem OneNote
-cd "C:\Program Files\Microsoft Office 15\root\office15\"
-start onenote.exe
+rem cd "C:\Program Files\Microsoft Office 15\root\office15\"
+rem start onenote.exe
 
 rem Thunderbird
 cd "C:\Program Files (x86)\Mozilla Thunderbird\"
