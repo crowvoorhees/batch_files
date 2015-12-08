@@ -6,10 +6,12 @@ set morning_dir = "%HOMEPATH%\My Documents\GitHub\batch_files\"
 rem -- Get the current hour--
 set currentHour=%TIME:~0,2%
 
-rem -- When its before 10AM run the morning batch file--
+rem -- run the morning batch file between 6-10am
 IF /I "%currentHour%" LEQ "10" (
-  cd %morning_dir%
-  call morning_coffee.bat
+  IF /"%currentHour%" GEQ "6" (
+    cd %morning_dir%
+    call morning_coffee.bat
+  )
 )
 
 exit
