@@ -4,9 +4,9 @@ rem Thunderbird
 cd "C:\Program Files (x86)\Mozilla Thunderbird\"
 start thunderbird.exe
 
-rem Sunrise Calendar
+rem Google Calendar
 cd "C:\Program Files (x86)\Google\Chrome\Application\"
-start chrome.exe --profile-directory=Default --app-id=mojepfklcankkmikonjlnidiooanmpbb
+start chrome.exe --profile-directory=Default --app-id=ejjicmeblgpmajnghnpcppodonldlgfn
 
 rem Google Chrome (Pro Profile)
 cd "C:\Program Files (x86)\Google\Chrome\Application\"
