@@ -13,15 +13,19 @@ cd "C:\Program Files (x86)\Google\Chrome\Application\"
 start chrome.exe --profile-directory="Profile 1"
 
 rem Outlook
-cd "C:\Program Files\Microsoft Office 15\root\office15\"
+cd "C:\Program Files (x86)\Microsoft Office\root\Office16\"
 start outlook.exe
 
 rem Lync
-cd "C:\Program Files\Microsoft Office 15\root\office15\"
+cd "C:\Program Files (x86)\Microsoft Office\root\Office16\"
 start lync.exe
 
-rem OneNote
-rem cd "C:\Program Files\Microsoft Office 15\root\office15\"
-rem start onenote.exe
+rem Cygwin: clock (tmux template)
+cd "C:\cygwin64\bin\"
+start mintty.exe -i /terminal.ico -s 85,25 -t mintty /bin/zsh --login -c "~/./.tmux_temp_clock" - 85,25 -t mintty /bin/zsh --login -c \"~/./.tmux_temp_clock\" -"
+
+rem Cygwin: weechat (background) - currently disabled
+rem cd "C:\cygwin64\bin\"
+rem start mintty.exe -i /terminal.ico -s 85,25 -t mintty /bin/zsh --login -c "cygstart --hide weechat" -
 
 exit
