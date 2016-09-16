@@ -22,7 +22,7 @@ start lync.exe
 
 rem Cygwin: clock (tmux template)
 cd "C:\cygwin64\bin\"
-start mintty.exe -i /terminal.ico -s 85,25 -t mintty /bin/zsh --login -c "~/./.tmux_temp_clock" -
+start mintty.exe -i /terminal.ico -s 85,25 -t mintty /bin/zsh --login -c "~/Scripts/tmux_temp_clock" -
 
 rem Cygwin: weechat (background) - currently disabled
 rem cd "C:\cygwin64\bin\"
