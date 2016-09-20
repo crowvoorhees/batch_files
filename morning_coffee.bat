@@ -13,8 +13,8 @@ cd "C:\Program Files (x86)\Google\Chrome\Application\"
 start chrome.exe --profile-directory="Profile 1"
 
 rem Outlook
-cd "C:\Program Files (x86)\Microsoft Office\root\Office16\"
-start outlook.exe
+rem cd "C:\Program Files (x86)\Microsoft Office\root\Office16\"
+rem start outlook.exe
 
 rem Lync
 cd "C:\Program Files (x86)\Microsoft Office\root\Office16\"
