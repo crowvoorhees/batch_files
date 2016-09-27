@@ -7,7 +7,6 @@ a place to stash the batch
 - Morning Coffee opens:
   - Thunderbird
   - Google Chrome w/ profile
-  - Sunrise Calendar
+  - Google Calendar
   - Lync
-  - Outlook
   - Cygwin: tmux clock template
